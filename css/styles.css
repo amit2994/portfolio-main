@@ -1,0 +1,215 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserratt";
+  font-size: 2.5rem;
+  font-weight: normal;
+  /* padding-bottom: 10px; */
+  text-align: center;
+}
+h3 {
+  color: #11999e;
+}
+/* .top-container {
+  background-color: #eaf6f6;
+  padding-top: 100px;
+} */
+.middle-container {
+  margin: 100px auto;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+.name {
+  font-size: 4em;
+  text-align: center;
+  font-family: "Sacramento";
+  color: #66bfbf;
+  margin-top: 50px auto 0 auto;
+}
+@media (max-width: 768px) {
+  .name {
+    font-size: 4em;
+  }
+  .prog {
+    font-size: 3em;
+  }
+}
+.prog {
+  font-size: 4.5em;
+  text-align: center;
+  font-weight: 200;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socials-icons {
+  margin-bottom: 5em;
+}
+
+.icons {
+  width: 7em;
+}
+.socials {
+  font-size: 2em;
+  text-align: center;
+  /* font-family: "Sacramento"; */
+  color: #66bfbf;
+  margin-top: 50px auto 0 auto;
+  margin-bottom: 2em;
+}
+/* For screens smaller than 480px */
+.container > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5em; /* Space between images */
+  padding: 2em;
+}
+
+.container > div > img {
+  width: 10%; /* Each image takes roughly half the container width */
+  max-width: 200px; /* Set a maximum width to prevent images from getting too large */
+  height: auto;
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  .container img {
+    width: 45%; /* Adjust width if needed for medium screens */
+    max-width: 150px;
+  }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+  .container img {
+    width: 45%; /* Adjust width for small screens */
+    max-width: 100px;
+  }
+}
+.bottom-cloud {
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any default inline styling */
+  margin: 0 auto; /* Center the image */
+}
+a {
+  color: #11999e;
+  font-family: "Montserratt";
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+.library {
+  margin: 10px 0px;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+.top-cloud {
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any default inline styling */
+  margin: 0 auto; /* Center the image */
+}
+.main-mountain {
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any default inline styling */
+  margin: 0 auto; /* Center the image */
+}
+
+@media (max-width: 768px) {
+  .main-mountain {
+    max-width: 80%;
+  }
+  /* Decrease image size for smaller screens */
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.Amit {
+  height: 300px;
+}
+.WebD-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.Reader-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.intro {
+  font-size: 18px; /* Default font size */
+
+  /* margin: 1em; Center the paragraph */
+  padding: 15px; /* Add some padding for better readability */
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    font-size: 14px; /* Decrease font size for small screens */
+  }
+}
+p {
+  line-height: 2;
+}
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.book-reference {
+  margin-bottom: 50px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserratt", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}

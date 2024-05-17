@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amit</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:ital,wght@0,100;1,100&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="top-container">
+      <h1 class="name">Amit Jaiswal</h1>
+      <h2 class="prog">Programmer || Reader</h2>
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <!-- <img class="Amit" src="Images/Amit.jpg" alt="Amit" /> -->
+        <!-- <h2>Hello.</h2> -->
+        <p class="intro">
+          <span id="greeting"></span> My name is Amit Jaiswal, and I am
+          currently pursuing a Btech in Artificial Intelligence at NIET Greater
+          Noida. With a strong foundation in web development, I am passionate
+          about designing visually appealing and user-friendly web interfaces.
+          My enthusiasm for technology drives me to constantly explore and adopt
+          new tools and frameworks, allowing me to work proficiently with
+          diverse tech stacks. I am dedicated to leveraging my skills to create
+          innovative solutions and contribute meaningfully to the field of web
+          development. Thank you for visiting, and I look forward to connecting
+          with you!
+        </p>
+      </div>
+      <h1 class="socials">My Socials</h1>
+      <div class="socials-icons">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/amit-jaiswal-686b98254/"
+        >
+          <img class="icons" src="./Images/linkedin.webp" alt="LinkedIn" />
+        </a>
+        <a target="_blank" href="https://github.com/amit2994">
+          <img class="icons" src="./Images/github.png" alt="GitHub" />
+        </a>
+      </div>
+      <!-- <hr /> -->
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <p>
+          As a dedicated and skilled Computer Science Engineering student, I am
+          passionate about technology and design. I have developed strong
+          expertise in Web development and Data Structures and Algorithms,
+          aiming to bring innovative solutions to the tech industry. I am
+          well-equipped to address a variety of challenges and contribute
+          meaningfully to any project.
+        </p>
+        <!-- <div class="skill-row">
+          <img class="WebD-img" src="Images/WD.png" alt="" />
+          <h3>Design & Development</h3>
+          <p>
+            I started my Development journey before my Placements because I
+            wanted to be placed as a web designer.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="Reader-img" src="Images/Reader.jpg" alt="Web-designer" />
+          <h3>Reader</h3>
+          <p>
+            My best skill is Reading books.I have a collection Of books of many
+            kinds such as Finance,Human Behaviour,Socializing etc.
+          </p>
+        </div> -->
+        <div>
+          <h3>Technologies, I have worked upon</h3>
+          <div class="container">
+            <div>
+              <img src="./Images/java.png" alt="Icon 1" class="icon" />
+              <img src="./Images/js.webp" alt="Icon 2" class="icon" />
+            </div>
+            <div>
+              <img src="./Images/html.png" alt="Icon 3" class="icon" />
+              <img src="./Images/css.png" alt="Icon 4" class="icon" />
+            </div>
+            <div>
+              <img src="./Images/react.webp" alt="Icon 5" class="icon" />
+              <img src="./Images/sql.png" alt="Icon 6" class="icon" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you also love reading Books as I do.</h3>
+        <p class="book-reference">
+          Here is a web site
+          <a class="library" href="https://www.pdfdrive.com/">Link</a> where you
+          can read my favorite books.
+        </p>
+        <a class="btn" href="mailto:amitjaiswal8666@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <script>
+      const greetUser = () => {
+        const userName = "Amit Jaiswal";
+        const currentHour = new Date().getHours();
+        let greeting;
+
+        if (currentHour < 12) {
+          greeting = "Good Morning";
+        } else if (currentHour < 18) {
+          greeting = "Good Afternoon";
+        } else {
+          greeting = "Good Evening";
+        }
+        return `${greeting}, ${userName}!`;
+        document.getElementById("greeting").innerText = greetUser();
+      };
+    </script>
+  </body>
+</html>
