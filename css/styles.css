@@ -191,8 +191,8 @@ p {
   display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
-  color: rgb(35, 204, 153);
-  background-color: #00ffc1; /* Original background color */
+  color: rgb(255, 255, 255);
+  background-color: #23cc99; 
   text-align: center;
   text-decoration: none;
   border-radius: 5px;
